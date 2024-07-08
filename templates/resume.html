@@ -55,7 +55,7 @@
 <body>
     <div class="container" style="margin-top:20px;background:#013a5c;color:white;"">
 
-        <h1 class="text center">Resume Screening AI base System</h1>
+        <h1 class=" text center">Resume Screening AI base System</h1>
         <p>This system supports TXT and PDF files, to be uploaded and it will work on the following....</p>
         <ul>
             <li>Resume Categorization</li>
@@ -99,6 +99,7 @@
         {% else %}
         <p class="text-center">No skills founds.........</p>
         <br>
+        {% endif %}
         {% if extracted_education %}
         <h1 class="text-center">Education:</h1>
         <ul class="list-unstyled text-center">
@@ -110,7 +111,7 @@
         <p class="text-center">No Education founds.........</p>
         <br>
         {% endif %}
-        {% endif %}
+
         {% endif %}
 
     </div>

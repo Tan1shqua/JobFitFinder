@@ -5,8 +5,8 @@ import pickle
 app = Flask(__name__)
 
 #load models ==============================================================================================
-#rf_classifier_categorization = pickle.load(open('models/rf_classifier_categorization.pkl', 'rb'))
-#tfidf_vectorizer_categorization = pickle.load(open('models/tfidf_vectorizer_categorization.pkl', 'rb'))
+rf_classifier_categorization = pickle.load(open('models/rf_classifier_categorization.pkl', 'rb'))
+tfidf_vectorizer_categorization = pickle.load(open('models/tfidf_vectorizer_categorization.pkl', 'rb'))
 rf_classifier_job_recommendation = pickle.load(open('models/rf_classifier_job_recommendation.pkl', 'rb'))
 tfidf_vectorizer_job_recommendation = pickle.load(open('models/tfidf_vectorizer_job_recommendation.pkl', 'rb'))
 
